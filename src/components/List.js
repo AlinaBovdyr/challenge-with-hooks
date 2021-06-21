@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Item from './Item';
 
 const List = ({ items, parentId = 0 }) => {
-  let parentItems = items.filter(item => item.parent_id === parentId)
+  const parentItems = items.filter(item => item.parent_id === parentId)
 
   return parentItems.length > 0 && (
     <ul>
