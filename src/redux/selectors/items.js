@@ -4,8 +4,10 @@ const getIsLoading = state => state.isLoading;
 
 const getIsError = state => state.error;
 
-export default {
+const itemsSelectors = {
   getItems,
   getIsLoading,
   getIsError,
-}
+};
+
+export default itemsSelectors;

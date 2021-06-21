@@ -21,6 +21,7 @@ List.propTypes = {
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       label: PropTypes.string.isRequired,
+      parent_id: PropTypes.number.isRequired,
     }),
   ),
   parentId: PropTypes.number,
